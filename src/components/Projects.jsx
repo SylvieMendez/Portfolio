@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Art Gallery",
     description: "This project showcases a use of multiple API's for photo viewing from NASA, Unsplash, And Pixel. It can be used as an art gallery giving you the ability to search pictures as well.",
-    image: "/images/art-gallery.png",
+    image: "images/art-gallery.png",
     demo: "https://sylviemendez.github.io/Art-Gallery/",
     code: "https://github.com/SylvieMendez",
     technologies: [
@@ -20,7 +20,7 @@ const projects = [
   {
     title: "Rock Paper Scissors Game",
     description: "An interactive rock paper scissors game where you choose either roc, paper, or scissors to play and the computer generates a random play back. It keeps track of your scores such as wins, losses, and ties until you reset the scoreboard.",
-    image: "/images/rockpaperscissors.png",
+    image: "images/rockpaperscissors.png",
     demo: "https://sylviemendez.github.io/Rock-Paper-Scissors/",
     code: "https://github.com/SylvieMendez",
     technologies: [
@@ -33,7 +33,7 @@ const projects = [
   {
     title: "Landing Page",
     description: "The SylvsLux product landing page is designed to showcase the delicious offerings at SylvsLux and promote customer engagement through an intuitive and visually appealing interface. The page aims to provide potential customers with essential information about our products, pricing, and delivery options.",
-    image: "/images/product-landing-page.png",
+    image: "images/product-landing-page.png",
     demo: "https://sylviemendez.github.io/Product-landing-page/",
     code:"https://github.com/SylvieMendez",
     technologies: [
