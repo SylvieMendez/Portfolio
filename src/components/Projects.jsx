@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Art Gallery",
     description: "This project showcases a use of multiple API's for photo viewing from NASA, Unsplash, And Pixel. It can be used as an art gallery giving you the ability to search pictures as well.",
-    image: "/public/images/art-gallery.png",
+    image: "/images/art-gallery.png",
     demo: "https://sylviemendez.github.io/Art-Gallery/",
     code: "https://github.com/SylvieMendez",
     technologies: [
@@ -20,7 +20,7 @@ const projects = [
   {
     title: "Rock Paper Scissors Game",
     description: "An interactive rock paper scissors game where you choose either roc, paper, or scissors to play and the computer generates a random play back. It keeps track of your scores such as wins, losses, and ties until you reset the scoreboard.",
-    image: "/public/images/rockpaperscissors.png",
+    image: "/images/rockpaperscissors.png",
     demo: "https://sylviemendez.github.io/Rock-Paper-Scissors/",
     code: "https://github.com/SylvieMendez",
     technologies: [
@@ -33,7 +33,7 @@ const projects = [
   {
     title: "Landing Page",
     description: "The SylvsLux product landing page is designed to showcase the delicious offerings at SylvsLux and promote customer engagement through an intuitive and visually appealing interface. The page aims to provide potential customers with essential information about our products, pricing, and delivery options.",
-    image: "/public/images/product-landing-page.png",
+    image: "/images/product-landing-page.png",
     demo: "https://sylviemendez.github.io/Product-landing-page/",
     code:"https://github.com/SylvieMendez",
     technologies: [
@@ -112,7 +112,7 @@ const projects = [
     description: "The Treat Drop product landing page is designed to showcase the delicious offerings at Treat Drop and promote customer engagement through an intuitive and visually appealing interface. The page aims to provide potential customers with essential information about our products, pricing, and delivery options.",
     image: "/images/product-landing.png",
     demo: "https://sylviemendez.github.io/product-landing/",
-    code:"https://github.com/SylvieMendez/product-landing",
+    code: "https://github.com/SylvieMendez/product-landing",
     technologies: [
       { name: "Javascript", icon: <FaJs /> },
       { name: "React", icon: <FaReact /> },
@@ -126,52 +126,50 @@ const projects = [
 const Projects = () => {
   return (
     <Motion.section
+      id="projects"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
-      style={{ marginTop: "4rem", marginBottom: "4rem" }}
-    >
-      <section 
-        id="projects" 
-        style={{
-          paddingTop: "5rem",
-          paddingBottom: "5rem",
-          paddingLeft: "1rem",
-          paddingRight: "1rem",
-          backgroundColor: "black",
-          color: "white"
-        }}
-      >
-      <h2 style={{ 
-        fontSize: "1.875rem", 
-        fontWeight: "600", 
-        textAlign: "center", 
-        marginBottom: "2rem" 
-      }}>Projects</h2>
-      <div style={{
-        display: "grid",
-        gap: "2rem",
-        width: "80%",
-        margin: "0 auto",
-        alignItems: "center",
-        gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))"
+      style={{
+        marginTop: "4rem",
+        marginBottom: "4rem",
+        paddingTop: "5rem",
+        paddingBottom: "5rem",
+        paddingLeft: "1rem",
+        paddingRight: "1rem",
+        backgroundColor: "black",          
+        color: "white"
       }}
-      className="md:grid-cols-2 lg:grid-cols-3"
       >
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            title={project.title}
-            description={project.description}
-            image={project.image}
-            demo={project.demo}
-            code={project.code}
-            technologies={project.technologies}
-          />
-        ))}
-      </div>
-      </section>
+        <h2 style={{
+          fontSize: "1.875rem",
+          fontWeight: "600",
+          textAlign: "center",
+          marginBottom: "2rem"
+        }}>Projects</h2>
+        <div style={{
+          display: "grid",
+          gap: "2rem",
+          width: "80%",
+          margin: "0 auto",
+          alignItems: "center",
+          gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))"
+        }}
+          className="md:grid-cols-2 lg:grid-cols-3"
+        >
+          {projects.map((project, index) => (
+            <ProjectCard
+              key={index}
+              title={project.title}
+              description={project.description}
+              image={project.image}
+              demo={project.demo}
+              code={project.code}
+              technologies={project.technologies}
+            />
+          ))}
+        </div>
     </Motion.section>
   );
 };
