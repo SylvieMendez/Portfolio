@@ -86,7 +86,7 @@ return (
       <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1rem", marginBottom: "2rem", color: "white"}}>
         <a href="#about">About Me</a>
         <a href="#projects">Projects</a>
-        <a href="/SYLVIEMENDEZ_Resume.pdf" download>Resume</a>
+        <a href="SYLVIEMENDEZ_Res.pdf" download>Resume</a>
         <a href="#certificates">Certificates</a>
       </div>
 
