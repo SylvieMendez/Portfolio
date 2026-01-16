@@ -28,19 +28,24 @@ const About = () => {
       >About Me</h2>
     <p
     style={{
-      fontSize: "1.125rem",
-      maxWidth: "42rem",
-      margin: "0 auto",
-      lineHeight: "1.75rem",
-    }}
->
-        I'm Sylvie — an aspiring Frontend Software Engineer driven by a passion for building more than just functional code—I strive to create digital experiences that are impactful, transformative, and user-focused. I began teaching myself to code two years ago and am now pursuing a degree in Computer Science at Hunter College to deepen my understanding and advance my technical skills.
+    fontSize: "1.125rem",
+    maxWidth: "42rem",
+    margin: "0 auto",
+    lineHeight: "1.75rem",
+          }}
+        >
+          I'm Sylvie — a Frontend Software Engineer and Coding Instructor driven by a passion for building impactful, user-focused digital experiences. Currently pursuing a Computer Science degree at Hunter College, I specialize in developing modern, responsive web applications using React, JavaScript, and contemporary frontend technologies.
 
-I specialize in developing modern, responsive interfaces using React, JavaScript, Tailwind, HTML, and CSS, and I have hands-on experience with backend technologies like Node.js and MongoDB. My focus is on writing clean, maintainable code and crafting reusable components that prioritize performance, accessibility, and cross-device compatibility.
+          <br /><br />
 
-I’m adept at integrating RESTful APIs, managing application state effectively, and collaborating throughout the development lifecycle to bring intuitive, high-quality products to life. I'm especially passionate about UI/UX design and continually explore emerging frontend technologies to stay ahead in the field.
+          I have hands-on experience building full-stack applications with React, Supabase, and RESTful APIs, focusing on clean, maintainable code and reusable components that prioritize performance and accessibility.
+          <br /><br />
 
-Above all, I'm committed to building scalable, user-centered solutions and contributing to inclusive, collaborative engineering teams where creativity and purpose drive innovation.
+          As a Coding Instructor at Code SpeakLabs, I teach programming fundamentals and physical computing (Scratch, Python, JavaScript, micro:bit) to 3rd-8th grade students, which has sharpened my ability to explain complex concepts clearly and adapt to different learning styles.
+
+          <br /><br />
+
+          I'm passionate about creating scalable, user-centered solutions and contributing to collaborative engineering teams where innovation and purpose drive meaningful impact.
       </p>
       </section>
     </Motion.section>

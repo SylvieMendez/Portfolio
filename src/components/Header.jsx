@@ -6,7 +6,7 @@ const Header = () => {
         Sylvie Mendez
       </h1>
       <p className="mt-2 text-lg text-gray-600">
-        Developer | JavaScript | HTML | CSS | React
+        Developer | JavaScript | React | API
       </p>
     </header>
   );

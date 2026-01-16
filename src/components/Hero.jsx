@@ -1,49 +1,3 @@
-/*
-const Hero = () => {
-   return (
-    <section className="h-screen flex flex-col justify-center items-center text-center px-4 space-y-6 py-20">
-      <h1 className="text-6xl font-extrabold text-white drop-shadow">
-        Sylvie Mendez
-      </h1>
-      <p className="text-xl text-white/80 max-w-xl">
-        Developer | JavaScript | React | UI/UX
-      </p>
-    <div className="flex flex-wrap justify-center mt-6">
-      <a
-        href="#about"
-        className="mx-2 text-blue-400 hover:bg-gray-100 transition"
-      >
-        About Me
-      </a>
-      
-      <a
-        href="#projects"
-        className="bg-white text-indigo-600 px-6 py-2 rounded-md font-semibold hover:bg-gray-200 transition"
-      >
-        Projects
-      </a>
-      <a
-        href="/SYLVIEMENDEZ_Resume.pdf" download
-        className="bg-white text-indigo-600 px-6 py-2 rounded-md font-semibold hover:bg-gray-200 transition"
-      >
-        Resume
-      </a>
-      <a
-        href="#certificates"
-        className="bg-white text-indigo-600 px-6 py-2 rounded-md font-semibold hover:bg-gray-200 transition"
-      >
-        Certificates
-      </a>
-    </div>
-    <div className="mt-8 animate-bounce text-2xl text-white">
-            ↓
-    </div>
-    </section>
-  );
-};
-
-export default Hero;
-*/
 import ParticlesBackground from "./particlesBackground";
 
 const Hero = () => {
@@ -86,7 +40,7 @@ return (
       <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1rem", marginBottom: "2rem", color: "white"}}>
         <a href="#about">About Me</a>
         <a href="#projects">Projects</a>
-        <a href="SYLVIEMENDEZ_Res.pdf" download>Resume</a>
+        <a href="MendezSylvieResume2026.pdf" download>Resume</a>
         <a href="#certificates">Certificates</a>
       </div>
 
